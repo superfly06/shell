@@ -1,0 +1,42 @@
+biton@biton-LIFEBOOK-E752:~$ pwd
+/home/biton
+biton@biton-LIFEBOOK-E752:~$ ls
+Bureau     examples.desktop  Modèles  Public  Téléchargements
+Documents  Images            Musique  snap    Vidéos
+biton@biton-LIFEBOOK-E752:~$ cd Bureau
+biton@biton-LIFEBOOK-E752:~/Bureau$ ls -a
+.  ..  Jaime_le_shell
+biton@biton-LIFEBOOK-E752:~/Bureau$ cd Jaime_le_shell
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ mkdir test1 test2 test3 test4 test5 test6
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ ls -a
+.  ..  test1  test2  test3  test4  test5  test6
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ ls -l
+total 24
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test1
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test2
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test3
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test4
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test5
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03 test6
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ mkdir le_shell_cest_trop_coolls!
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ ls -l
+total 28
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:06 'le_shell_cest_trop_coolls!'
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test1
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test2
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test3
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test4
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test5
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test6
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ 
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ mv test1 test5/ 'le_shell_cest_trop_coolls!'/
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ ls -l
+total 20
+drwxr-xr-x 4 biton biton 4096 déc.  11 12:09 'le_shell_cest_trop_coolls!'
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test2
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test3
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test4
+drwxr-xr-x 2 biton biton 4096 déc.  11 12:03  test6
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$ cp -r test2 test6/ 'le_shell_cest_trop_coolls!'/
+biton@biton-LIFEBOOK-E752:~/Bureau/Jaime_le_shell$
+
